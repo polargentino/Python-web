@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header h1  {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+/* Imágenes responsivas */
+img {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita espacios no deseados debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente si es necesario */
+  }
+  h2{
+    text-align: center;
+    
+  }
